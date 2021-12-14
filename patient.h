@@ -19,6 +19,7 @@ Patient();
 
 void input() override;
 void output() override;
+void print() override;
 
 friend ostream& operator<< (ostream &out, const Patient &patient){
         out << "id:" << patient.id << endl << "name:" << patient.name<< endl

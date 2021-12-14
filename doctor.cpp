@@ -20,3 +20,7 @@ void Doctor::output()
     cout<<"Telefon - "<<telefon<<endl;
     cout<<"Specializing - "<<specializing<<endl;
 }
+void Doctor::print()
+{
+    cout<<"I'm a doctor"<<endl;
+}

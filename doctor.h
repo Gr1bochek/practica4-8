@@ -12,5 +12,6 @@ public:
     Doctor();
     void input() override;
     void output() override;
+    void print() override;
 };
 #endif // DOCTOR_H

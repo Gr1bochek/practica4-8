@@ -12,6 +12,7 @@ public:
           string adress);
     virtual void input();
     virtual void output();
+    virtual void print()=0;
 protected:
     int id;
     string middlename;

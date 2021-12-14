@@ -19,3 +19,8 @@ void Patient::output()
     cout<<"card number:"<<card_number<<endl;
     cout<<"diagnoz:"<<diagnoz<<endl;
 }
+
+void Patient::print()
+{
+    cout<<"I'm a patient"<<endl;
+}
